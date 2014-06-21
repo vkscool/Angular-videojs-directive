@@ -23,7 +23,7 @@ corpo.directive('videojs',function(){
 	                        'preload' : 'auto',
 	                        'autoplay' : false,
 	                        'width' : '100%'
-	                };
+	                	};
 	        		var vid = '_' + Math.random().toString(36).substr(2, 9);
 	        		var str = '<video id="video'+vid+'" width="100%" height="100%"  class="video-js vjs-default-skin vjs-big-play-centered" controls preload="none" data-setup="{}" poster="'+newValue.cover+'" >';
 	        		/*$.each(newValue.sources,function(index,oo){
