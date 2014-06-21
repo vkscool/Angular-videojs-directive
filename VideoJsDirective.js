@@ -36,9 +36,9 @@ corpo.directive('videojs',function(){
 					});
 	        		element.html(str);
 	        		var player = videojs("video"+vid, setup, function(){
-	                    var source =(srcc);
-	                    this.src(source);
-	                });
+		                    var source =(srcc);
+		                    this.src(source);
+		                });
         		},500);
         	}else if(newValue.status==404){
         		element.html("<p style='color:#fff;font-size:12pt;padding:5px;font-weight:bolder;'>This Video Does Not Exist</p><hr><p style='color:#fff;font-size:10pt;padding:5px;'>Sorry About That</p>");
